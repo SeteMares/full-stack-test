@@ -36,7 +36,33 @@ Although quite verbose, the following fields are of importance (the rest can be 
 # Time Limit
 We expect this test to take no longer than 6-8 hours, however there is no hard limit.
 
-#Technical questions
+# Code style requirements
+
+- https://chris.beams.io/posts/git-commit/
+- https://sebastiandedeyne.com/setting-up-a-global-gitignore-file/
+- https://github.com/prettier/plugin-php
+sample `.prettierrc` file
+```
+printWidth: 95
+tabWidth: 4
+useTabs: false
+semi: false
+singleQuote: true
+trailingComma: "es5"
+bracketSpacing: true
+jsxBracketSameLine: false
+arrowParens: "avoid"
+proseWrap: "never"
+trailingCommaPHP: "php7.2"
+braceStyle: "psr-2"
+overrides:
+  - files: "*.vue"
+    options:
+      printWidth: 95
+    parser: "vue"
+```
+
+# Technical questions
 
 Please answer the following questions in a markdown file called <code>Answers to technical questions.md</code>
 - How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.
