@@ -18,8 +18,7 @@ We expect to see:
 What would be nice to have:
 * Unit tests
 * Migrations
-* Full docblock comments
-* PHP 7.4 usage
+* PHP 8.1 usage
 
 
 ## JSON Feed
